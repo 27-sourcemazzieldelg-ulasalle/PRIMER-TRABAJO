@@ -1,0 +1,10 @@
+def convertir_a_mayuculas():
+  cadenas=[]
+  while True:
+    cadena=input("Ingrese una cadena(salir para terminar): ")
+    if cadena.lower() == 'salir':
+      break
+    cadenas.append(cadena)
+  for cadena in cadenas:
+    print(cadena.upper())
+convertir_a_mayuculas()
